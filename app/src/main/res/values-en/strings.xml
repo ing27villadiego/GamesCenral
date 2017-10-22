@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name_card">Escenarios</string>
+    <string name="cityname_card">Barranquilla</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_news">News</string>
+    <string name="tab_competitions">Competitions</string>
+    <string name="toolbar_tittle_scenarios">example</string>
+</resources>

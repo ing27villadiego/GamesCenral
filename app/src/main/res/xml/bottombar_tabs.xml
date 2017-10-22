@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+
+    <tab
+        id="@+id/news"
+        title="@string/tab_news"
+        barColorWhenSelected="@color/colorPrimary"
+        icon="@drawable/ic_icons8_publicidad_filled_50"
+        />
+
+    <tab
+        id="@+id/home"
+        title="Home"
+        barColorWhenSelected="@color/colorPrimary"
+        icon="@drawable/ic_icons8_casa_50"
+        />
+
+    <tab
+        id="@+id/competitions"
+        title="@string/tab_competitions"
+        barColorWhenSelected="@color/colorPrimary"
+        icon="@drawable/ic_icons8_trofeo_50"
+        />
+</tabs>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "76007788738",
+    "firebase_url": "https://gamescentralamericans.firebaseio.com",
+    "project_id": "gamescentralamericans",
+    "storage_bucket": "gamescentralamericans.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76007788738:android:18838e2f356820c0",
+        "android_client_info": {
+          "package_name": "edu.webfutuandroid.ing26sistemas.gamescenral"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76007788738-2lq1qosfvlvrcdmotrkc9f0r0lcjhd0m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.webfutuandroid.ing26sistemas.gamescenral",
+            "certificate_hash": "a7a5614c026ce22f16f29cfb442e4c54e3a2f6a9"
+          }
+        },
+        {
+          "client_id": "76007788738-hg2begtije4mnbm7n0e9ve7umshss37v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpGlSIalPFYmoK4MuJaAek3VCL3xypXH4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76007788738-hg2begtije4mnbm7n0e9ve7umshss37v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
