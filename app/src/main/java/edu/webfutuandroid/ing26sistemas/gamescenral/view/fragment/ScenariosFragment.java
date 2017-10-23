@@ -20,10 +20,10 @@ import edu.webfutuandroid.ing26sistemas.gamescenral.model.Picture;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class HomeFragment extends Fragment {
+public class ScenariosFragment extends Fragment {
 
 
-    public HomeFragment() {
+    public ScenariosFragment() {
         // Required empty public constructor
     }
 
@@ -31,7 +31,6 @@ public class HomeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_home, container, false);
         showToolbar(getResources().getString(R.string.tab_home), false, view);
@@ -48,12 +47,11 @@ public class HomeFragment extends Fragment {
         return view;
     }
 
-
     public ArrayList<Picture> buildPictures(){
         ArrayList<Picture> pictures = new ArrayList<>();
-        pictures.add(new Picture("https://preview.ibb.co/meJxBR/elias_chegwin.jpg", "Escenarios", "Barranquilla"));
-        pictures.add(new Picture("https://preview.ibb.co/haYxBR/romelio_martinez.jpg", "Paises", "Barranquilla"));
-        pictures.add(new Picture("https://preview.ibb.co/gyR65m/metro.jpg","Hubicaciones", "Barranquilla"));
+        pictures.add(new Picture("https://www.dropbox.com/s/jufc1gvenhpl0dr/Complejo-Acuatico.jpg?dl=0", "Escenarios", "Barranquilla"));
+        pictures.add(new Picture("http://www.enjoyart.com/library/landscapes/tuscanlandscapes/large/Tuscan-Bridge--by-Art-Fronckowiak-.jpg", "Paises", "Barranquilla"));
+        pictures.add(new Picture("http://www.educationquizzes.com/library/KS3-Geography/river-1-1.jpg","Hubicaciones", "Barranquilla"));
         return pictures;
     }
 
@@ -64,4 +62,5 @@ public class HomeFragment extends Fragment {
         ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(upButton);
 
     }
+
 }

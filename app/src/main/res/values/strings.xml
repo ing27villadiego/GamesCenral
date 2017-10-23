@@ -11,5 +11,6 @@
     <string name="tab_news">Noticias</string>
     <string name="tab_competitions">Torneos</string>
     <string name="toolbar_tittle_scenarios">Ejemplo</string>
+    <string name="sign_in_google_error">Authentication failed.</string>
 
 </resources>
